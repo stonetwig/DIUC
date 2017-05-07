@@ -1,0 +1,22 @@
+﻿<Page
+    x:Class="DIUC.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:DIUC"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    xmlns:vm="using:DIUC.ViewModels"
+    xmlns:commands="using:DIUC.Delegates">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <StackPanel Margin="10">
+            <ListBox ItemsSource="{Binding Channels}" DisplayMemberPath="Name" SelectedItem="{Binding SelectedChannel, Mode=TwoWay}" Margin="10"></ListBox>
+            <StackPanel Orientation="Horizontal" Margin="10" VerticalAlignment="Top">
+                <Button Command="{Binding ResumeCommand}" Content="Resume" Margin="10" Width="80"></Button>
+                <Button Command="{Binding StopCommand}" Content="Stop" Margin="10" Width="80"></Button>
+            </StackPanel>
+        </StackPanel>
+
+    </Grid>
+</Page>
