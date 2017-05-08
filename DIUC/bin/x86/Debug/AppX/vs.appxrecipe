@@ -31,13 +31,13 @@
     <AppXManifest Include="d:\documents\visual studio 2017\Projects\DIUC\DIUC\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-05-07T21:25:13.291</Modified>
+      <Modified>2017-05-08T20:16:46.980</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="d:\documents\visual studio 2017\Projects\DIUC\DIUC\bin\x86\Debug\DIUC.exe">
       <PackagePath>entrypoint\DIUC.exe</PackagePath>
-      <Modified>2017-05-07T21:25:13.112</Modified>
+      <Modified>2017-05-08T20:16:46.796</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\markus\.nuget\packages\Microsoft.CSharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -535,7 +535,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="d:\documents\visual studio 2017\Projects\DIUC\DIUC\bin\x86\Debug\DIUC.xr.xml">
       <PackagePath>DIUC.xr.xml</PackagePath>
-      <Modified>2017-05-07T20:49:26.979</Modified>
+      <Modified>2017-05-08T20:11:02.950</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.15063.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -544,11 +544,11 @@
     <AppxPackagedFile Include="d:\documents\visual studio 2017\Projects\DIUC\DIUC\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-05-07T20:53:47.757</Modified>
+      <Modified>2017-05-08T20:11:03.933</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="d:\documents\visual studio 2017\Projects\DIUC\DIUC\bin\x86\Debug\Core\DIUC.exe">
       <PackagePath>DIUC.exe</PackagePath>
-      <Modified>2017-05-07T21:25:13.289</Modified>
+      <Modified>2017-05-08T20:16:46.978</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

@@ -1,24 +1,26 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Diagnostics;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 using Windows.Devices.Enumeration;
-using Windows.Media.Audio;
-using Windows.Media.Protection.PlayReady;
-using Windows.Media.Render;
-using Windows.Storage;
-using Windows.Storage.Pickers;
-using Windows.Storage.Streams;
-using Windows.UI.ViewManagement;
+using Windows.Media.Core;
+using Windows.Media.Playback;
 using DIUC.Delegates;
 
 namespace DIUC.ViewModels
 {
     internal class MainPageViewModel : ViewModelBase
     {
+        public MainPageViewModel()
+        {
+            ResumeCommand = new DelegateCommand(Resume);
+            StopCommand = new DelegateCommand(Stop);
+            Settings = new Settings();
+        }
+
+        public Settings Settings { get; }
+
         public DelegateCommand ResumeCommand { get; }
         public DelegateCommand StopCommand { get; }
         public async Task InitializeAsync()
@@ -51,7 +53,7 @@ namespace DIUC.ViewModels
                 OnPropertyChanged(nameof(SelectedChannel));
                 try
                 {
-                    Play(_selectedChannel).Wait();
+                    Play(_selectedChannel);
                 }
                 catch (Exception e)
                 {
@@ -61,66 +63,25 @@ namespace DIUC.ViewModels
             }
         }
 
-        private async Task Play(Channel channel)
+        private void Play(Channel channel)
         {
-            if (_audioGraph == null)
+            var channelUrl = new Uri(channel.Url + "?" + Settings.PlayerCode);
+            if (_mediaPlayer == null)
             {
-                if (SelectedDevice == null)
-                {
-                    SelectedDevice = Devices[0];
-                }
-                var settings = new AudioGraphSettings(AudioRenderCategory.Media) {PrimaryRenderDevice = SelectedDevice};
-                var createResult = await AudioGraph.CreateAsync(settings);
-                if (createResult.Status != AudioGraphCreationStatus.Success) throw new NotImplementedException();
-                _audioGraph = createResult.Graph;
+                _mediaPlayer = new MediaPlayer();
             }
-
-            if (_deviceOutputNode == null)
-            {
-                var deviceResult = await _audioGraph.CreateDeviceOutputNodeAsync();
-                if (deviceResult.Status != AudioDeviceNodeCreationStatus.Success) return;
-                _deviceOutputNode = deviceResult.DeviceOutputNode;
-            }
-
-            //var file = await SelectPlaybackFile();
-            //if (file == null) return;
-            var soundFile = StorageFile.CreateStreamedFileFromUriAsync("stream.mp3", new Uri(channel.Url + "?" + Settings.PlayerCode), null);
-            var streamResult = await _audioGraph.CreateFileInputNodeAsync(soundFile.GetResults());
-            if (streamResult.Status != AudioFileNodeCreationStatus.Success)
-            {
-                throw new NotImplementedException();
-            }
-
-            _fileInputNode = streamResult.FileInputNode;
-            _fileInputNode.AddOutgoingConnection(_deviceOutputNode);
-            _fileInputNode.OutgoingGain = Volume / 100.0;
-
-            _audioGraph.Start();
-        }
-
-        private async Task<IStorageFile> SelectPlaybackFile()
-        {
-            var picker = new FileOpenPicker
-            {
-                ViewMode = PickerViewMode.List,
-                SuggestedStartLocation = PickerLocationId.MusicLibrary
-            };
-            picker.FileTypeFilter.Add(".mp3");
-            picker.FileTypeFilter.Add(".aac");
-            picker.FileTypeFilter.Add(".wav");
-
-            return await picker.PickSingleFileAsync();
-            
+            _mediaPlayer.Source = MediaSource.CreateFromUri(channelUrl);
+            Resume();
         }
 
         private void Resume()
         {
-            _audioGraph.Start();
+            _mediaPlayer?.Play();
         }
 
         private void Stop()
         {
-            _audioGraph?.Stop();
+            _mediaPlayer?.Pause();
         }
 
         public double Volume
@@ -131,9 +92,9 @@ namespace DIUC.ViewModels
                 if (value.Equals(_volume)) return;
                 _volume = value;
                 OnPropertyChanged();
-                if (_fileInputNode != null)
+                if (_mediaPlayer != null)
                 {
-                    _fileInputNode.OutgoingGain = value / 100.0;
+                    _mediaPlayer.Volume = value / 100.0;
                 }
             }
         }
@@ -150,11 +111,8 @@ namespace DIUC.ViewModels
         };
 
         private DeviceInformation _selectedDevice;
-        private AudioGraph _audioGraph;
+        private MediaPlayer _mediaPlayer;
         private double _volume;
-        private AudioFileInputNode _fileInputNode;
         private Channel _selectedChannel;
-        private AudioDeviceOutputNode _deviceOutputNode;
-        private AudioFileInputNode _streamInputNode;
     }
 }

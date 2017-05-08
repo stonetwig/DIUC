@@ -24,6 +24,7 @@ namespace DIUC
     /// </summary>
     public sealed partial class MainPage : Page
     {
+        private MainPageViewModel _viewModel;
         public MainPage()
         {
             this.InitializeComponent();
@@ -32,9 +33,15 @@ namespace DIUC
 
         private async void OnLoaded(object sender, RoutedEventArgs e)
         {
-            var viewModel = new MainPageViewModel();
-            this.DataContext = viewModel;
-            await viewModel.InitializeAsync();
+            _viewModel = new MainPageViewModel();
+            this.DataContext = _viewModel;
+            await _viewModel.InitializeAsync();
+        }
+
+        private void ListenKey_OnLostFocus(object sender, RoutedEventArgs e)
+        {
+            var textbox = (TextBox) sender;
+            _viewModel.Settings.PlayerCode = textbox.Text;
         }
     }
 }

@@ -8,6 +8,23 @@ namespace DIUC.ViewModels
 {
     class Settings : ViewModelBase
     {
-        public static string PlayerCode = "0ed5c61a30d01e269c1cac8d";
+        public string PlayerCode
+        {
+            get => _playerCode;
+            set
+            {
+                if (_playerCode == value) return;
+                _playerCode = value;
+                OnPropertyChanged();
+                SaveToSettingsFile(nameof(PlayerCode), value);
+            }
+        }
+
+        private static void SaveToSettingsFile(string playerCodeName, string value)
+        {
+            
+        }
+
+        private string _playerCode;
     }
 }
