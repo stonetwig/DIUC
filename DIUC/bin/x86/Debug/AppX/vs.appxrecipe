@@ -19,7 +19,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>d:\documents\visual studio 2017\Projects\DIUC\DIUC\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>C5EE2490A61B4986BAE9269F618436A56F83E94ADB25158C3A5D2DE83C039503</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>384EF3EDCF532FFF164B3F3B2051A1E6587998D791975FF65E189BF9F89C9491</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>cb1577aa-02df-4ace-83ab-034c62223aa4_1.0.0.0_x86__d23t2j7dtypq4</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>cb1577aa-02df-4ace-83ab-034c62223aa4_d23t2j7dtypq4!App</RegisteredUserModeAppID>
     <RegisteredPackageID>cb1577aa-02df-4ace-83ab-034c62223aa4</RegisteredPackageID>
@@ -31,13 +31,13 @@
     <AppXManifest Include="d:\documents\visual studio 2017\Projects\DIUC\DIUC\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-05-14T19:10:00.257</Modified>
+      <Modified>2017-05-14T20:23:12.745</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="d:\documents\visual studio 2017\Projects\DIUC\DIUC\bin\x86\Debug\DIUC.exe">
       <PackagePath>entrypoint\DIUC.exe</PackagePath>
-      <Modified>2017-05-14T19:10:00.077</Modified>
+      <Modified>2017-05-14T20:23:12.550</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\markus\.nuget\packages\Microsoft.CSharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -495,9 +495,190 @@
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
       <Modified>2016-06-11T21:15:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="d:\documents\visual studio 2017\Projects\DIUC\DIUC\Properties\Default.rd.xml">
-      <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2017-05-07T19:31:52.019</Modified>
+    <AppxPackagedFile Include="d:\documents\visual studio 2017\Projects\DIUC\DIUC\Assets\3dlogo.altform-unplated_targetsize-16.png">
+      <PackagePath>Assets\3dlogo.altform-unplated_targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-05-14T20:23:08.567</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="d:\documents\visual studio 2017\Projects\DIUC\DIUC\Assets\3dlogo.altform-unplated_targetsize-24.png">
+      <PackagePath>Assets\3dlogo.altform-unplated_targetsize-24.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-05-14T20:23:08.571</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="d:\documents\visual studio 2017\Projects\DIUC\DIUC\Assets\3dlogo.altform-unplated_targetsize-256.png">
+      <PackagePath>Assets\3dlogo.altform-unplated_targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-05-14T20:23:08.585</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="d:\documents\visual studio 2017\Projects\DIUC\DIUC\Assets\3dlogo.altform-unplated_targetsize-32.png">
+      <PackagePath>Assets\3dlogo.altform-unplated_targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-05-14T20:23:08.574</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="d:\documents\visual studio 2017\Projects\DIUC\DIUC\Assets\3dlogo.altform-unplated_targetsize-48.png">
+      <PackagePath>Assets\3dlogo.altform-unplated_targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-05-14T20:23:08.579</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="d:\documents\visual studio 2017\Projects\DIUC\DIUC\Assets\3dlogo.scale-100.png">
+      <PackagePath>Assets\3dlogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-05-14T20:23:08.518</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="d:\documents\visual studio 2017\Projects\DIUC\DIUC\Assets\3dlogo.scale-125.png">
+      <PackagePath>Assets\3dlogo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-05-14T20:23:08.522</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="d:\documents\visual studio 2017\Projects\DIUC\DIUC\Assets\3dlogo.scale-150.png">
+      <PackagePath>Assets\3dlogo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-05-14T20:23:08.526</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="d:\documents\visual studio 2017\Projects\DIUC\DIUC\Assets\3dlogo.scale-200.png">
+      <PackagePath>Assets\3dlogo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-05-14T20:23:08.535</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="d:\documents\visual studio 2017\Projects\DIUC\DIUC\Assets\3dlogo.scale-400.png">
+      <PackagePath>Assets\3dlogo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-05-14T20:23:08.541</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="d:\documents\visual studio 2017\Projects\DIUC\DIUC\Assets\3dlogo.targetsize-16.png">
+      <PackagePath>Assets\3dlogo.targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-05-14T20:23:08.545</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="d:\documents\visual studio 2017\Projects\DIUC\DIUC\Assets\3dlogo.targetsize-24.png">
+      <PackagePath>Assets\3dlogo.targetsize-24.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-05-14T20:23:08.549</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="d:\documents\visual studio 2017\Projects\DIUC\DIUC\Assets\3dlogo.targetsize-256.png">
+      <PackagePath>Assets\3dlogo.targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-05-14T20:23:08.563</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="d:\documents\visual studio 2017\Projects\DIUC\DIUC\Assets\3dlogo.targetsize-32.png">
+      <PackagePath>Assets\3dlogo.targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-05-14T20:23:08.553</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="d:\documents\visual studio 2017\Projects\DIUC\DIUC\Assets\3dlogo.targetsize-48.png">
+      <PackagePath>Assets\3dlogo.targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-05-14T20:23:08.557</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="d:\documents\visual studio 2017\Projects\DIUC\DIUC\Assets\LargeTile.scale-100.png">
+      <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-05-14T20:23:08.420</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="d:\documents\visual studio 2017\Projects\DIUC\DIUC\Assets\LargeTile.scale-125.png">
+      <PackagePath>Assets\LargeTile.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-05-14T20:23:08.430</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="d:\documents\visual studio 2017\Projects\DIUC\DIUC\Assets\LargeTile.scale-150.png">
+      <PackagePath>Assets\LargeTile.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-05-14T20:23:08.442</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="d:\documents\visual studio 2017\Projects\DIUC\DIUC\Assets\LargeTile.scale-200.png">
+      <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-05-14T20:23:08.460</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="d:\documents\visual studio 2017\Projects\DIUC\DIUC\Assets\LargeTile.scale-400.png">
+      <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-05-14T20:23:08.513</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="d:\documents\visual studio 2017\Projects\DIUC\DIUC\Assets\SmallTile.scale-100.png">
+      <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-05-14T20:23:08.265</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="d:\documents\visual studio 2017\Projects\DIUC\DIUC\Assets\SmallTile.scale-125.png">
+      <PackagePath>Assets\SmallTile.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-05-14T20:23:08.270</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="d:\documents\visual studio 2017\Projects\DIUC\DIUC\Assets\SmallTile.scale-150.png">
+      <PackagePath>Assets\SmallTile.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-05-14T20:23:08.275</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="d:\documents\visual studio 2017\Projects\DIUC\DIUC\Assets\SmallTile.scale-200.png">
+      <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-05-14T20:23:08.281</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="d:\documents\visual studio 2017\Projects\DIUC\DIUC\Assets\SmallTile.scale-400.png">
+      <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-05-14T20:23:08.289</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="d:\documents\visual studio 2017\Projects\DIUC\DIUC\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-05-14T20:23:08.599</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="d:\documents\visual studio 2017\Projects\DIUC\DIUC\Assets\SplashScreen.scale-125.png">
+      <PackagePath>Assets\SplashScreen.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-05-14T20:23:08.618</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="d:\documents\visual studio 2017\Projects\DIUC\DIUC\Assets\SplashScreen.scale-150.png">
+      <PackagePath>Assets\SplashScreen.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-05-14T20:23:08.644</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="d:\documents\visual studio 2017\Projects\DIUC\DIUC\Assets\SplashScreen.scale-400.png">
+      <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-05-14T20:23:08.833</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="d:\documents\visual studio 2017\Projects\DIUC\DIUC\Assets\Square150x150Logo.scale-100.png">
+      <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-05-14T20:23:08.295</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="d:\documents\visual studio 2017\Projects\DIUC\DIUC\Assets\Square150x150Logo.scale-125.png">
+      <PackagePath>Assets\Square150x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-05-14T20:23:08.300</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="d:\documents\visual studio 2017\Projects\DIUC\DIUC\Assets\Square150x150Logo.scale-150.png">
+      <PackagePath>Assets\Square150x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-05-14T20:23:08.306</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="d:\documents\visual studio 2017\Projects\DIUC\DIUC\Assets\Square150x150Logo.scale-400.png">
+      <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-05-14T20:23:08.331</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="d:\documents\visual studio 2017\Projects\DIUC\DIUC\Assets\Wide310x150Logo.scale-100.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-05-14T20:23:08.338</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="d:\documents\visual studio 2017\Projects\DIUC\DIUC\Assets\Wide310x150Logo.scale-125.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-05-14T20:23:08.346</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="d:\documents\visual studio 2017\Projects\DIUC\DIUC\Assets\Wide310x150Logo.scale-150.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-05-14T20:23:08.356</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="d:\documents\visual studio 2017\Projects\DIUC\DIUC\Assets\Wide310x150Logo.scale-400.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-05-14T20:23:08.412</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="d:\documents\visual studio 2017\Projects\DIUC\DIUC\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
@@ -506,21 +687,19 @@
     <AppxPackagedFile Include="d:\documents\visual studio 2017\Projects\DIUC\DIUC\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-04-17T11:26:27.774</Modified>
+      <Modified>2017-05-14T20:23:08.685</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="d:\documents\visual studio 2017\Projects\DIUC\DIUC\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-04-17T11:26:27.774</Modified>
+      <Modified>2017-05-14T20:23:08.314</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="d:\documents\visual studio 2017\Projects\DIUC\DIUC\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2017-04-17T11:26:27.774</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="d:\documents\visual studio 2017\Projects\DIUC\DIUC\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2017-04-17T11:26:27.774</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="d:\documents\visual studio 2017\Projects\DIUC\DIUC\Assets\StoreLogo.png">
@@ -531,7 +710,11 @@
     <AppxPackagedFile Include="d:\documents\visual studio 2017\Projects\DIUC\DIUC\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-04-17T11:26:27.774</Modified>
+      <Modified>2017-05-14T20:23:08.370</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="d:\documents\visual studio 2017\Projects\DIUC\DIUC\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2017-05-07T19:31:52.019</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="d:\documents\visual studio 2017\Projects\DIUC\DIUC\bin\x86\Debug\DIUC.xr.xml">
       <PackagePath>DIUC.xr.xml</PackagePath>
@@ -544,11 +727,11 @@
     <AppxPackagedFile Include="d:\documents\visual studio 2017\Projects\DIUC\DIUC\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-05-14T18:51:44.027</Modified>
+      <Modified>2017-05-14T20:20:30.159</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="d:\documents\visual studio 2017\Projects\DIUC\DIUC\bin\x86\Debug\Core\DIUC.exe">
       <PackagePath>DIUC.exe</PackagePath>
-      <Modified>2017-05-14T19:10:00.255</Modified>
+      <Modified>2017-05-14T20:23:12.743</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

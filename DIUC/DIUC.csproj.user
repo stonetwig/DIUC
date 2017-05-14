@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <AppIconSource>D:\Documents\Visual Studio 2017\Projects\DIUC\DIUC\Assets\logo_3d_large.png</AppIconSource>
+    <SplashScreenSource>D:\Documents\Visual Studio 2017\Projects\DIUC\DIUC\Assets\logo_3d_large.png</SplashScreenSource>
+    <Source>D:\Documents\Visual Studio 2017\Projects\DIUC\DIUC\Assets\logo_3d_large.png</Source>
+    <SmallTileSource>D:\Documents\Visual Studio 2017\Projects\DIUC\DIUC\Assets\logo_3d_large.png</SmallTileSource>
+    <MediumTileSource>D:\Documents\Visual Studio 2017\Projects\DIUC\DIUC\Assets\logo_3d_large.png</MediumTileSource>
+    <WideTileSource>D:\Documents\Visual Studio 2017\Projects\DIUC\DIUC\Assets\logo_3d_large.png</WideTileSource>
+    <LargeTileSource>D:\Documents\Visual Studio 2017\Projects\DIUC\DIUC\Assets\logo_3d_large.png</LargeTileSource>
+  </PropertyGroup>
+</Project>
