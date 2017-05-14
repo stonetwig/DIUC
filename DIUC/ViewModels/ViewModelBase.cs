@@ -9,7 +9,7 @@ using DIUC.Annotations;
 
 namespace DIUC.ViewModels
 {
-    internal class ViewModelBase : INotifyPropertyChanged
+    public class ViewModelBase : INotifyPropertyChanged
     {
         public event PropertyChangedEventHandler PropertyChanged;
 

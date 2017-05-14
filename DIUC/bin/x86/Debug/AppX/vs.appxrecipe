@@ -19,7 +19,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>d:\documents\visual studio 2017\Projects\DIUC\DIUC\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>87B00A27FC49A5D256E3AA29C9E2C6C85B9E97F12ECF93884EA4A321A4BB6998</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>C5EE2490A61B4986BAE9269F618436A56F83E94ADB25158C3A5D2DE83C039503</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>cb1577aa-02df-4ace-83ab-034c62223aa4_1.0.0.0_x86__d23t2j7dtypq4</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>cb1577aa-02df-4ace-83ab-034c62223aa4_d23t2j7dtypq4!App</RegisteredUserModeAppID>
     <RegisteredPackageID>cb1577aa-02df-4ace-83ab-034c62223aa4</RegisteredPackageID>
@@ -31,13 +31,13 @@
     <AppXManifest Include="d:\documents\visual studio 2017\Projects\DIUC\DIUC\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-05-08T20:16:46.980</Modified>
+      <Modified>2017-05-14T19:10:00.257</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="d:\documents\visual studio 2017\Projects\DIUC\DIUC\bin\x86\Debug\DIUC.exe">
       <PackagePath>entrypoint\DIUC.exe</PackagePath>
-      <Modified>2017-05-08T20:16:46.796</Modified>
+      <Modified>2017-05-14T19:10:00.077</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\markus\.nuget\packages\Microsoft.CSharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -535,7 +535,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="d:\documents\visual studio 2017\Projects\DIUC\DIUC\bin\x86\Debug\DIUC.xr.xml">
       <PackagePath>DIUC.xr.xml</PackagePath>
-      <Modified>2017-05-08T20:11:02.950</Modified>
+      <Modified>2017-05-11T21:40:50.744</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.15063.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -544,11 +544,11 @@
     <AppxPackagedFile Include="d:\documents\visual studio 2017\Projects\DIUC\DIUC\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-05-08T20:11:03.933</Modified>
+      <Modified>2017-05-14T18:51:44.027</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="d:\documents\visual studio 2017\Projects\DIUC\DIUC\bin\x86\Debug\Core\DIUC.exe">
       <PackagePath>DIUC.exe</PackagePath>
-      <Modified>2017-05-08T20:16:46.978</Modified>
+      <Modified>2017-05-14T19:10:00.255</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
@@ -581,27 +581,27 @@
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
       <Name>Microsoft.VCLibs.140.00.Debug</Name>
-      <Version>14.0.25019.0</Version>
+      <Version>14.0.25022.0</Version>
       <Architecture>ARM</Architecture>
-      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.25019.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.25022.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
       <Name>Microsoft.VCLibs.140.00.Debug</Name>
-      <Version>14.0.25019.0</Version>
+      <Version>14.0.25022.0</Version>
       <Architecture>x64</Architecture>
-      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.25019.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.25022.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
       <Name>Microsoft.VCLibs.140.00.Debug</Name>
-      <Version>14.0.25019.0</Version>
+      <Version>14.0.25022.0</Version>
       <Architecture>x86</Architecture>
-      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.25019.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.25022.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>

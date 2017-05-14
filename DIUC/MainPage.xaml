@@ -11,10 +11,6 @@
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <StackPanel Margin="10">
-            <StackPanel Orientation="Horizontal">
-                <TextBlock VerticalAlignment="Center" Margin="10">Listen Key</TextBlock>
-                <TextBox  VerticalAlignment="Center" Margin="10" MinWidth="250" LostFocus="ListenKey_OnLostFocus"></TextBox>
-            </StackPanel>
             <ListBox ItemsSource="{Binding Channels}" DisplayMemberPath="Name" SelectedItem="{Binding SelectedChannel, Mode=TwoWay}" Margin="10"></ListBox>
             <StackPanel Orientation="Horizontal" Margin="10" VerticalAlignment="Top">
                 <Button Command="{Binding ResumeCommand}" Content="Resume" Margin="10" Width="80"></Button>

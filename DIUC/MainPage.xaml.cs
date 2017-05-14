@@ -25,23 +25,28 @@ namespace DIUC
     public sealed partial class MainPage : Page
     {
         private MainPageViewModel _viewModel;
+        private ListenkeyViewModel _listenkeyViewModel;
+
         public MainPage()
         {
+                this.InitializeComponent();
+                this.Loaded += OnLoaded;
+        }
+
+        public MainPage(ListenkeyViewModel vm)
+        {
+            _listenkeyViewModel = vm;
             this.InitializeComponent();
             this.Loaded += OnLoaded;
         }
 
         private async void OnLoaded(object sender, RoutedEventArgs e)
         {
-            _viewModel = new MainPageViewModel();
+            _listenkeyViewModel = new ListenkeyViewModel();
+            await _listenkeyViewModel.GetKey();
+            _viewModel = new MainPageViewModel(_listenkeyViewModel);
             this.DataContext = _viewModel;
             await _viewModel.InitializeAsync();
-        }
-
-        private void ListenKey_OnLostFocus(object sender, RoutedEventArgs e)
-        {
-            var textbox = (TextBox) sender;
-            _viewModel.Settings.PlayerCode = textbox.Text;
         }
     }
 }

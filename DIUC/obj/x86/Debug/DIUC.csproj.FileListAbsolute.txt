@@ -1,4 +1,5 @@
 d:\documents\visual studio 2017\Projects\DIUC\DIUC\bin\x86\Debug\App.xbf
+d:\documents\visual studio 2017\Projects\DIUC\DIUC\bin\x86\Debug\ListenkeyPage.xbf
 d:\documents\visual studio 2017\Projects\DIUC\DIUC\bin\x86\Debug\MainPage.xbf
 d:\documents\visual studio 2017\Projects\DIUC\DIUC\bin\x86\Debug\DIUC.xr.xml
 d:\documents\visual studio 2017\Projects\DIUC\DIUC\bin\x86\Debug\DIUC.exe
@@ -122,15 +123,18 @@ d:\documents\visual studio 2017\Projects\DIUC\DIUC\bin\x86\Debug\System.Xml.Read
 d:\documents\visual studio 2017\Projects\DIUC\DIUC\bin\x86\Debug\System.Xml.XDocument.dll
 d:\documents\visual studio 2017\Projects\DIUC\DIUC\bin\x86\Debug\System.Xml.XmlDocument.dll
 d:\documents\visual studio 2017\Projects\DIUC\DIUC\bin\x86\Debug\System.Xml.XmlSerializer.dll
-d:\documents\visual studio 2017\Projects\DIUC\DIUC\obj\x86\Debug\DIUC.csprojResolveAssemblyReference.cache
 d:\documents\visual studio 2017\Projects\DIUC\DIUC\obj\x86\Debug\App.g.i.cs
 d:\documents\visual studio 2017\Projects\DIUC\DIUC\obj\x86\Debug\App.g.cs
+d:\documents\visual studio 2017\Projects\DIUC\DIUC\obj\x86\Debug\ListenkeyPage.g.i.cs
+d:\documents\visual studio 2017\Projects\DIUC\DIUC\obj\x86\Debug\ListenkeyPage.g.cs
 d:\documents\visual studio 2017\Projects\DIUC\DIUC\obj\x86\Debug\MainPage.g.i.cs
 d:\documents\visual studio 2017\Projects\DIUC\DIUC\obj\x86\Debug\MainPage.g.cs
 d:\documents\visual studio 2017\Projects\DIUC\DIUC\obj\x86\Debug\XamlTypeInfo.g.cs
 d:\documents\visual studio 2017\Projects\DIUC\DIUC\obj\x86\Debug\App.xaml
+d:\documents\visual studio 2017\Projects\DIUC\DIUC\obj\x86\Debug\ListenkeyPage.xaml
 d:\documents\visual studio 2017\Projects\DIUC\DIUC\obj\x86\Debug\MainPage.xaml
 d:\documents\visual studio 2017\Projects\DIUC\DIUC\obj\x86\Debug\App.xbf
+d:\documents\visual studio 2017\Projects\DIUC\DIUC\obj\x86\Debug\ListenkeyPage.xbf
 d:\documents\visual studio 2017\Projects\DIUC\DIUC\obj\x86\Debug\MainPage.xbf
 d:\documents\visual studio 2017\Projects\DIUC\DIUC\obj\x86\Debug\XamlSaveStateFile.xml
 d:\documents\visual studio 2017\Projects\DIUC\DIUC\obj\x86\Debug\DIUC.exe
@@ -210,3 +214,4 @@ d:\documents\visual studio 2017\Projects\DIUC\DIUC\obj\x86\Debug\qualifiers.txt
 d:\documents\visual studio 2017\Projects\DIUC\DIUC\obj\x86\Debug\qualifiers.txt.intermediate
 d:\documents\visual studio 2017\Projects\DIUC\DIUC\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 d:\documents\visual studio 2017\Projects\DIUC\DIUC\obj\x86\Debug\ProjectArchitectures.txt
+d:\documents\visual studio 2017\Projects\DIUC\DIUC\obj\x86\Debug\DIUC.csprojResolveAssemblyReference.cache

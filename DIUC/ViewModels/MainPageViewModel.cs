@@ -12,14 +12,16 @@ namespace DIUC.ViewModels
 {
     internal class MainPageViewModel : ViewModelBase
     {
-        public MainPageViewModel()
+        public MainPageViewModel(ListenkeyViewModel listenkeyViewModel)
         {
             ResumeCommand = new DelegateCommand(Resume);
             StopCommand = new DelegateCommand(Stop);
             Settings = new Settings();
+            ListenKeySettings = listenkeyViewModel;
         }
 
         public Settings Settings { get; }
+        public ListenkeyViewModel ListenKeySettings { get; set; }
 
         public DelegateCommand ResumeCommand { get; }
         public DelegateCommand StopCommand { get; }
@@ -65,7 +67,7 @@ namespace DIUC.ViewModels
 
         private void Play(Channel channel)
         {
-            var channelUrl = new Uri(channel.Url + "?" + Settings.PlayerCode);
+            var channelUrl = new Uri(channel.Url + "?" + ListenKeySettings.Listenkey);
             if (_mediaPlayer == null)
             {
                 _mediaPlayer = new MediaPlayer();
